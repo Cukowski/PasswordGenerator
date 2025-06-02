@@ -35,8 +35,8 @@ static void print_usage(const char *progname) {
 static char *generate_password(int length, int use_upper, int use_lower, int use_digits, int use_special)
 {
     static char password[MAX_LEN];
-    const char *upper = "ABCDEFGHIJKLMNOPQRSTUWXYZ";
-    const char *lower = "abcdefghijklmnopqrstuwxyz";
+    const char *upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const char *lower = "abcdefghijklmnopqrstuvwxyz";
     const char *digits = "0123456789";
     const char *special = "!@#$%^&*()-_=+[]{};',.<>?/";
     
